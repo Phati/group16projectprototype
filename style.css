@@ -1,0 +1,191 @@
+body 
+{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+#main h3 
+{
+    margin-left: 400px;
+}
+
+#container 
+{
+    background-color: white;
+    width : 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    background-color: #66CCFF;
+    text-align: center;
+    padding: 1px;
+}
+
+#nav
+{
+    text-align: center;
+
+}
+
+
+#content
+{
+    padding: 10px;
+    width:980px;
+
+}
+
+#home_book
+{
+    float:left;
+    width:150px;
+    margin-bottom: 10px;
+}
+
+#home_book h3
+{
+    text-decoration-color: brown;
+    
+}
+
+#image
+{
+    
+    margin-left: 100px;  
+    float:left; 
+}
+
+#Amenities
+{
+    float:right;
+    margin-right: -90px;
+    margin-top: 50px;
+    
+}
+#Amenities h3
+{
+    margin-left: 30px;
+}
+
+
+#Amenities .li
+{
+    color: black;
+    
+}
+
+
+#footer
+{
+    clear:both;
+    padding : 0.5px;
+    background-color: #66CCFF;
+    text-align: center;
+
+}
+
+#customer_login
+{
+    float: left; 
+    margin-top: 100px;
+    margin-left:200px;
+}
+
+
+#contact_emergency
+{
+    margin-left: 200px;
+    float : left;
+    margin-top: 30px;
+}
+
+#contact_email
+{
+    margin-top: 30px;
+    margin-right: -100px;
+    float : right;
+}
+
+#Car_rentals
+{
+    margin-left : 300px;
+
+}
+
+/*---------Floor Plan CSS-----------------------*/ 
+
+
+#floor_plan
+{
+    float:center;
+    width:1300px;
+   
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+
+.columnfp {
+    float: left;
+    width: 20%;
+    padding: 5px;
+   
+  }
+  
+  /* Style the images inside the grid */
+  .columnfp span img {
+    opacity: 0.5; 
+    border: 2px;
+    border-color: black;
+  }
+
+
+  .containerfp {
+
+    float:left;
+    width:1000px;
+    
+  }
+  
+/* Expanding image text */
+    #imgtext {
+    bottom: 30px;
+    left: 1000px;
+    color: gray;
+    font-size: 50px;
+  }
+
+  #expandedImg {
+    
+  }
+
+
+  .columnfp img:hover {
+    opacity: 1;
+  }
+
+  .closebtn {
+    
+   
+    color:red;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  /*---------Floor Plan CSS ENDS-----------------------*/

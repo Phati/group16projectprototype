@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" style="text/css" />
+   
+</head>
+<body>
+ <link rel="stylesheet" href="surabhi_style.css" style="text/css">
+    <div id="container">
+
+        <div id="header">
+            <h1>Discount Inn</h1>
+            <h4> Whoever you are. Whatever you want.</h4>
+        </div>
+
+        <div id="nav">
+          <p> <a href="Home.html" class="selected"> Home </a> &emsp; &emsp; <a href="customer_login.html"> Login </a>  &emsp; &emsp; <a href="Register.html"> Register </a> &emsp; &emsp; <a href="find_hotel.html"> Find Hotel </a>&emsp; &emsp; <a href="find_on_map.html"> Find on Map </a> &emsp; &emsp; <a href="floor_plan.html"> View floor plan </a>
+        </div>
+
+
+        <div id="content">
+            <div id="home_book">
+                <form action="Hotel_selection_page" method="POST">
+                    <h2 style="color: brown;">Quick Book</h2>
+                    <h4> Select state</h4>
+                    <select>
+                        <option value="Maharashtra">Maharashtra </option>
+                        <option value="UP">UP </option>
+                        <option value="Karnataka">Karnataka </option>
+                    </select>
+    
+                    <h4> Select city </h4>
+    
+                    <select>
+                        <option value="Mumbai">Mumbai </option>
+                        <option value="Nagpur">Nagpur </option>
+                        <option value="Pune">Pune </option>
+                    </select>
+    
+                    <h4> Check-in date</h4>
+                        <input type="date" name="in_date">
+                    <h4> Check-out date</h4>
+                        <input type="date" name="out_date">
+    
+                        <h4></h4>
+                        <input type="reset" value="Clear"> <input type="submit"> 
+                </form>
+            </div>
+
+           <div class="login-page">
+               
+               <legend>REGISTER</legend>
+                    <div class="form">
+                    <form class="register-form">
+                        <input type ="text" placeholder="First name" autofocus required/>
+                        <input type ="text" placeholder="Last name" required/>
+                        <input type ="email" placeholder="Email id" required/>
+                        <input type ="password" placeholder="Password" required/>
+                        <input type ="password" placeholder="Confirm password" required/>
+                        <button>Register</button>
+                        <p class="message">Already Registered? &nbsp;<a href="customer_login.html">Login</a></p>
+                    </form>
+
+
+                    </div>
+            </div>
+        </div>
+       
+        
+
+        <div id="footer">
+            <p> <a href="About_us.html"> About us </a> &emsp; &emsp; <a href="Car_rentals.html"> Car rentals </a> &emsp; &emsp; <a href="Contact_us.html"> Contact us </a> &emsp; &emsp; <a href="staff_login.html"> Staff login </a> </p>
+            <marquee behavior="alternate" scrollamount="5">
+                Copyright &copy; 2020 Developed by Discount Inn. 
+                </marquee>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,128 @@
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-left: 25px; 
+  width: 100px;
+}
+#sp{
+  margin-left: 60px;
+}
+
+#customer_info{
+  background: cornsilk;
+    margin-left: 350px;  
+     
+}
+#ad1{
+       padding: 15px 25px 15px 25px;
+}
+
+#clear{
+   background-color: #4CAF50;
+  font-size: 16px;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-left: 250px;
+  margin-top: 15px;
+}
+#Go{
+  background-color: #4CAF50;
+  font-size: 16px;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+
+}
+.adfi{
+	width: 60%;
+  height: 35px;
+  margin-left: 60px; 
+  box-sizing: border-box;
+  border:  solid #ccc;
+  
+}
+.ot1{
+  width: 25%;
+    height: 35px;
+  margin-left: 60px; 
+  box-sizing: border-box;
+  border:  solid #ccc;
+  
+
+}
+
+input[type=number] {
+  
+  margin-left: 60px;
+  padding: 6px 40px 6px 40px;
+
+ box-sizing: border-box;
+  border:  solid #ccc;
+  
+  
+}
+select{
+	box-sizing: border-box;
+  border: 3px solid #ccc;
+    height: 35px;
+}
+
+input[type=date]
+{
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+    height: 35px;
+}
+
+#reset{
+  background-color: #4CAF50;
+ font-size: 16px;
+ color: white;
+ padding: 10px 15px 10px 15px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ float: left;
+
+}
+
+#submit{
+  background-color: #4CAF50;
+ font-size: 16px;
+ color: white;
+ padding: 10px 15px 10px 15px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ float: left;
+ margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

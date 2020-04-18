@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" style="text/css" />
+    <link rel="stylesheet" href="venky_style.css" style="text/css" />
+
+</head>
+<body>
+    <div id="container" style="margin-top: 8px;">
+
+        <div id="header">
+            <h1>Discount Inn</h1>
+            <h4> Whoever you are. Whatever you want.</h4>
+        </div>
+
+        <div id="nav">
+            <p> <a href="Home.html" class="selected"> Home </a> &emsp; &emsp; <a href="customer_login.html"> Login </a> &emsp; &emsp; <a href="Register.html"> Register </a>&emsp; &emsp; <a href="find_hotel.html"> Find Hotel </a>&emsp; &emsp; <a href="find_on_map.html"> Find on Map </a> &emsp; &emsp; <a href="floor_plan.html"> View floor plan </a>
+        </div>
+
+        <div id="content">
+            <div id="home_book">
+                <form action="Hotel_selection_page" method="POST">
+                    <h2 style="color: brown;">Quick Book</h2>
+                    <h4> Select state</h4>
+                    <select>
+                        <option value="Maharashtra">Maharashtra </option>
+                        <option value="UP">UP </option>
+                        <option value="Karnataka">Karnataka </option>
+                    </select>
+
+                    <h4> Select city </h4>
+
+                    <select>
+                        <option value="Mumbai">Mumbai </option>
+                        <option value="Nagpur">Nagpur </option>
+                        <option value="Pune">Pune </option>
+                    </select>
+
+                    <h4> Check-in date</h4>
+                        <input type="date" name="in_date">
+                    <h4> Check-out date</h4>
+                        <input type="date" name="out_date">
+
+                        <h4></h4>
+                        <input type="reset" value="Clear"> <input type="submit"> 
+                </form>
+            </div>
+            
+            <div style="width: 1200px; margin-left: 100px;">
+                <h1 align="center" style="margin-top: 3px;"> <i>About Us</i></h1>
+                  <p align= "justify"><i>
+                      <b>Discount Inn</b> is recognised the world over for delivering exceptional hospitality, 
+                      an amalgam of world-class refinement inspired by the heritage and nobility of Indian traditions.
+                      With 3 hotels in various locations, including Maharashtra, Rajasthan, Karnataka 
+                      our footprint extends across renowned landmark properties, best-in-class business hotels, idyllic island and hillside resorts. 
+                  </i>
+              
+              
+              </p>
+              
+              <div class="slideshow-container">
+              
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/rajasthan.jpg" style="width:100%; height: 500px">
+                <div class="text">Rajasthan</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/mumbai.jpg" style="width:100%; height: 500px">
+                <div class="text">Mumbai</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/bangalore.jpg" style="width:100%;height: 500px">
+                <div class="text">Bangalore</div>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+              
+              </div>
+              
+               
+            
+            
+                
+        </div>
+
+
+
+
+        <div id="footer" style="margin-bottom: 10px;">
+            <p> <a href="About_us.html"> About us </a> &emsp; &emsp; <a href="Car_rentals.html"> Car rentals </a> &emsp; &emsp; <a href="Contact_us.html"> Contact us </a> &emsp; &emsp; <a href="staff_login.html"> Staff login </a> </p>
+            <marquee behavior="alternate" scrollamount="5">
+                Copyright &copy; 2020 Developed by Discount Inn. 
+                </marquee>
+
+        </div>
+
+
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+
+
+    </div>
+    
+</body>
+</html>
+

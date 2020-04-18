@@ -1,0 +1,86 @@
+body 
+{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.login-page{
+
+vertical-align: middle;
+
+width:360px;
+padding:10% 0 0;
+
+margin-left: 500px;
+margin-bottom: -90px;
+margin-top: -70px;
+
+}
+
+.form{
+position:relative;
+z-index:1;
+background: cornsilk;
+max-width:360px;
+margin:0 auto 100px;
+padding:45px
+}
+
+
+
+.form input{
+font-family:"Roboto",sans-serif;
+outline:1;
+background:#f2f2f2;
+width:100%;
+border:0;
+margin:0 0 15px;
+box-sizing:border-box;
+font-size:14px;
+}
+
+.form buttom{
+    font-family:"Roboto", sans-serif;
+    text-transform: :uppercase;
+    outline:0;
+    background:#4CAF50;
+    width:100%;
+    border:0;
+    padding:15px;
+    color:#FFFFFF;
+    font-size:14px;
+    cursor:pointer;
+    
+}
+.form button:hover, .form button:active{
+    background: :#43A047;
+
+}
+.footer
+{
+    clear:both;
+    padding : 0.5px;
+    background-color: #66CCFF;
+    text-align: center;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+  input
+  {
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+      height: 35px;
+  }
